@@ -52,7 +52,7 @@ const cookiesArr = [
       "Accept-Encoding": "gzip, deflate, br",
       mpversion: "0.30.0",
     }),
-  },
+  },{
     qqreadheaderVal: JSON.stringify({//恰十年
       ywsession: "yt70c1kcovi99obembenzip99k3k91n2",
       Cookie:
@@ -83,7 +83,7 @@ const cookiesArr = [
       "Accept-Encoding": "gzip, deflate, br",
       mpversion: "0.30.0",
     }),
-  },
+  },{
     qqreadheaderVal: JSON.stringify({
       ywsession: "khebe6wjjme83fhsiirxcmx5qe6cj0nj",
       Cookie:
