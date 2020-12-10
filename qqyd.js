@@ -22,71 +22,7 @@ const qqreadurlVal = "https://mqqapi.reader.qq.com/mqq/user/init";
 let qqreadheaderVal, qqreadtimeurlVal, qqreadtimeheaderVal;
 const cookiesArr = [
 
-
-
 {
-      qqreadheaderVal: JSON.stringify({//薇薇
-      ywsession: "cmce3m9zqpah88xb3olzvyoooxc6vct7",
-      Cookie:
-        "ywguid=2090791617;ywkey=ywhU0AO7IP0M;platform=android;channel=mqqmina;mpVersion=0.32.5",
-      Connection: "keep-alive",
-      "Content-Type": "application/json",
-      Accept: "*/*",
-      Host: "mqqapi.reader.qq.com",
-      "User-Agent": "Mozilla%2F5.0+%28Linux%3B+Android+10%3B+Mi+10+Pro+Build%2FQKQ1.191117.002%3B+wv%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Version%2F4.0+Chrome%2F86.0.4240.198+Mobile+Safari%2F537.36 QQ/8.4.18.4945 V1_AND_SQ_8.4.18_1558_YYB_D QQ/MiniApp",
-      Referer: "https://appservice.qq.com/1110657249/0.30.0/page-frame.html",
-      "Accept-Language": "zh-cn",
-      "Accept-Encoding": "gzip, deflate, br",
-      mpversion: "0.30.0",
-    }),
-    qqreadtimeurlVal:
-      "https://mqqapi.reader.qq.com/mqq/addReadTimeWithBid?scene=1007&refer=-1&bid=26878703&readTime=5083&read_type=0&conttype=1&read_status=0&chapter_info=%5B%7B%221%22%3A%7B%22readTime%22%3A5083%2C%22pay_status%22%3A0%7D%7D%5D&sp=-1",
-    qqreadtimeheaderVal: JSON.stringify({
-      ywsession: "cmce3m9zqpah88xb3olzvyoooxc6vct7",
-      Cookie:
-        "ywguid=2090791617;ywkey=ywhU0AO7IP0M;platform=android;channel=mqqmina;mpVersion=0.32.5;qq_ver=8.4.18.4945;os_ver=Android 10;mpos_ver=0.30.0;platform=android;openid=649A62223D6ED68ADD574419577829F6",
-      Connection: "keep-alive",
-      "Content-Type": "application/json",
-      Accept: "*/*",
-      Host: "mqqapi.reader.qq.com",
-      "User-Agent": "Mozilla%2F5.0+%28Linux%3B+Android+10%3B+Mi+10+Pro+Build%2FQKQ1.191117.002%3B+wv%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Version%2F4.0+Chrome%2F86.0.4240.198+Mobile+Safari%2F537.36 QQ/8.4.18.4945 V1_AND_SQ_8.4.18_1558_YYB_D QQ/MiniApp",
-      Referer: "https://appservice.qq.com/1110657249/0.30.0/page-frame.html",
-      "Accept-Language": "zh-cn",
-      "Accept-Encoding": "gzip, deflate, br",
-      mpversion: "0.30.0",
-    }),
-  },{
-      qqreadheaderVal: JSON.stringify({//薇薇
-      ywsession: "t2w1uhye7f7ofp1j2wh9p99bmc5by2s7",
-      Cookie:
-        "ywguid=2098805929;ywkey=ywRfiI51zS3j;platform=android;channel=mqqmina;mpVersion=0.31.0",
-      Connection: "keep-alive",
-      "Content-Type": "application/json",
-      Accept: "*/*",
-      Host: "mqqapi.reader.qq.com",
-      "User-Agent": "Mozilla%2F5.0+%28Linux%3B+Android+10%3B+Mi+10+Pro+Build%2FQKQ1.191117.002%3B+wv%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Version%2F4.0+Chrome%2F86.0.4240.198+Mobile+Safari%2F537.36 QQ/8.4.18.4945 V1_AND_SQ_8.4.18_1558_YYB_D QQ/MiniApp",
-      Referer: "https://appservice.qq.com/1110657249/0.30.0/page-frame.html",
-      "Accept-Language": "zh-cn",
-      "Accept-Encoding": "gzip, deflate, br",
-      mpversion: "0.30.0",
-    }),
-    qqreadtimeurlVal:
-      "https://mqqapi.reader.qq.com/mqq/addReadTimeWithBid?scene=1007&refer=-1&bid=26878703&readTime=5083&read_type=0&conttype=1&read_status=0&chapter_info=%5B%7B%221%22%3A%7B%22readTime%22%3A5083%2C%22pay_status%22%3A0%7D%7D%5D&sp=-1",
-    qqreadtimeheaderVal: JSON.stringify({
-      ywsession: "t2w1uhye7f7ofp1j2wh9p99bmc5by2s7",
-      Cookie:
-        "ywguid=2098805929;ywkey=ywRfiI51zS3j;platform=android;channel=mqqmina;mpVersion=0.31.0;qq_ver=8.4.18.4945;os_ver=Android 10;mpos_ver=0.30.0;platform=android;openid=649A62223D6ED68ADD574419577829F6",
-      Connection: "keep-alive",
-      "Content-Type": "application/json",
-      Accept: "*/*",
-      Host: "mqqapi.reader.qq.com",
-      "User-Agent": "Mozilla%2F5.0+%28Linux%3B+Android+10%3B+Mi+10+Pro+Build%2FQKQ1.191117.002%3B+wv%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Version%2F4.0+Chrome%2F86.0.4240.198+Mobile+Safari%2F537.36 QQ/8.4.18.4945 V1_AND_SQ_8.4.18_1558_YYB_D QQ/MiniApp",
-      Referer: "https://appservice.qq.com/1110657249/0.30.0/page-frame.html",
-      "Accept-Language": "zh-cn",
-      "Accept-Encoding": "gzip, deflate, br",
-      mpversion: "0.30.0",
-    }),
-  },{
     qqreadheaderVal: JSON.stringify({//恰十年
       ywsession: "yt70c1kcovi99obembenzip99k3k91n2",
       Cookie:
